@@ -35,7 +35,7 @@ Data (Implementation)
 
 
 
-### 🔹 Layers Detailed
+###  Layers Detailed
 
 | Layer              | Components                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Data (Implementation)
 
 ---
 
-## 🔄 State Management (BLoC)
+##  State Management (BLoC)
 
 Predictable & testable UI workflows:
 
@@ -57,7 +57,7 @@ Predictable & testable UI workflows:
 
 ---
 
-## 🌐 API & Data Handling
+##  API & Data Handling
 
 - **Remote Data Source** — HTTP requests via `dio`
 - **Error Handling** — Functional style with `Either` (success / failure)
@@ -66,7 +66,7 @@ Predictable & testable UI workflows:
 
 ---
 
-## ⚙️ Development Environment
+## ⚙Development Environment
 
 - **Flutter SDK:** 3.32.4
 - **Responsive UI:** `flutter_screenutil`
@@ -75,8 +75,10 @@ Predictable & testable UI workflows:
 - **Database:** `sqflite`
 
 ---
+  Screenshots
+<img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_22.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_58.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_04.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_16.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_22.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_30.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_48.png" width="300" /> ``
 
-## ▶️ How to Run
+##  ️ How to Run
 
 ```bash
 # Clone the repo
@@ -98,5 +100,3 @@ flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
 
 
-📸 Screenshots
-<img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_22.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_58.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_04.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_16.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_22.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_30.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_48.png" width="300" /> ``
