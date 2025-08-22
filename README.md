@@ -6,14 +6,19 @@
 
 ---
 
-##  Highlights
--  Track income, expenses & balance effortlessly
--  Built-in currency conversion
--  Lazy-loading pagination for smooth scrolling
--  Multi-language support (English / Arabic)
--  Clean Architecture + BLoC for state management
--  Dependency Injection with GetIt
+## Highlights
+- Track income, expenses & balance effortlessly  
+- Built-in currency conversion  
+- Lazy-loading pagination for smooth scrolling  
+- Multi-language support (English / Arabic)  
+- Clean Architecture + BLoC for state management  
+- Dependency Injection with GetIt  
+- Navigation handled with **go_router**  
+- **Downloadable PDF summary** of income & expenses  
+- Local storage using **SQLite** database 
 
+---
+> **Note**: On the login screen, you may enter any email and password. The login process is simulated .
 ---
 
 ##  Architecture Overview
