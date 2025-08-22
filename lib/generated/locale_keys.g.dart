@@ -1,0 +1,80 @@
+// DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
+// ignore_for_file: constant_identifier_names
+
+abstract class  LocaleKeys {
+  static const app_name = 'app_name';
+  static const or_login_with = 'or_login_with';
+  static const continue_with_google = 'continue_with_google';
+  static const continue_with_apple = 'continue_with_apple';
+  static const email = 'email';
+  static const enter_your_email = 'enter_your_email';
+  static const password = 'password';
+  static const forget_password = 'forget_password';
+  static const login = 'login';
+  static const recent_expenses = 'recent_expenses';
+  static const see_all = 'see_all';
+  static const expense = 'expense';
+  static const see_more = 'see_more';
+  static const good_morning = 'good_morning';
+  static const this_month = 'this_month';
+  static const last_7_days = 'last_7_days';
+  static const good_afternoon = 'good_afternoon';
+  static const good_evening = 'good_evening';
+  static const good_night = 'good_night';
+  static const total_balance = 'total_balance';
+  static const income = 'income';
+  static const expenses = 'expenses';
+  static const entry_details = 'entry_details';
+  static const no_expenses_yet = 'no_expenses_yet';
+  static const recent_expenses_info = 'recent_expenses_info';
+  static const no_expenses = 'no_expenses';
+  static const loading_expenses = 'loading_expenses';
+  static const no_receipt_attached = 'no_receipt_attached';
+  static const total_income = 'total_income';
+  static const currency_converter = 'currency_converter';
+  static const enter_amount = 'enter_amount';
+  static const please_enter_amount = 'please_enter_amount';
+  static const enter_valid_number = 'enter_valid_number';
+  static const from = 'from';
+  static const to = 'to';
+  static const convert = 'convert';
+  static const converted_amount = 'converted_amount';
+  static const add_entry = 'add_entry';
+  static const category_source = 'category_source';
+  static const amount = 'amount';
+  static const valid_amount = 'valid_amount';
+  static const pick_a_date = 'pick_a_date';
+  static const attach_receipt = 'attach_receipt';
+  static const upload_image = 'upload_image';
+  static const categories = 'categories';
+  static const saving = 'saving';
+  static const save_income = 'save_income';
+  static const save_expense = 'save_expense';
+  static const income_saved_successfully = 'income_saved_successfully';
+  static const expense_saved_successfully = 'expense_saved_successfully';
+  static const summary = 'summary';
+  static const category = 'category';
+  static const date = 'date';
+  static const type = 'type';
+  static const id = 'id';
+  static const total_expenses = 'total_expenses';
+  static const transaction_singular = 'transaction_singular';
+  static const settings_title = 'settings.title';
+  static const settings_language_changed = 'settings.language_changed';
+  static const settings_general = 'settings.general';
+  static const settings_change_language = 'settings.change_language';
+  static const settings_lang_english = 'settings.lang_english';
+  static const settings_lang_arabic = 'settings.lang_arabic';
+  static const settings_account = 'settings.account';
+  static const settings_logout = 'settings.logout';
+  static const settings_logout_title = 'settings.logout_title';
+  static const settings_logout_desc = 'settings.logout_desc';
+  static const settings_cancel = 'settings.cancel';
+  static const settings = 'settings';
+  static const common_cancel = 'common.cancel';
+  static const common = 'common';
+  static const transaction_plural = 'transaction_plural';
+  static const receipt = 'receipt';
+
+}
