@@ -6,7 +6,7 @@
 
 ---
 
-## Highlights
+## Main Features
 - Track income, expenses & balance effortlessly  
 - Built-in currency conversion  
 - Lazy-loading pagination for smooth scrolling  
