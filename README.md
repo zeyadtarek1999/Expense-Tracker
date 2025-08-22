@@ -1,10 +1,8 @@
 ExpenseTracker
-
 Record income & expenses, track your running balance, and convert between currencies — fast, clean, and scalable.
 
-Highlights
-
-Track income, expenses & balance
+ Highlights
+Track income, expenses & balance effortlessly
 
 Built-in currency conversion
 
@@ -12,61 +10,62 @@ Lazy-loading pagination for smooth scrolling
 
 Multi-language support (English / Arabic)
 
-Clean Architecture + BLoC state management
+Clean Architecture + BLoC for state management
 
 Dependency Injection with GetIt
 
-Architecture Overview
-
-This project follows Clean Architecture, ensuring scalability, testability, and separation of concerns.
-
-Presentation (Flutter UI)
-└─ BLoC (Events, States, Logic)
-
-Domain (Pure Dart)
-├─ Entities
-├─ UseCases
-└─ Repositories (abstract)
-
-Data (Implementation)
-├─ Models (DTOs)
-├─ Data Sources (Local / Remote)
-└─ Repository Implementations
+ Architecture Overview
+This project follows Clean Architecture principles, ensuring scalability, testability, and clear separation of concerns.
 
 Layers
+Presentation (Flutter UI)
 
-Data Layer → Models (DTOs), Data Sources (API, SQLite, SharedPrefs), Repository implementations
+BLoC (Events, States, Logic)
 
-Domain Layer → Entities, Repository contracts, Use Cases (business logic)
+Domain (Pure Dart)
 
-Presentation Layer → Pages, Widgets, and BLoC (managing events & states)
+Entities
 
-State Management (BLoC)
+UseCases
 
-The app uses the BLoC pattern for predictable & testable UI:
+Repositories (abstract)
 
-Event → User interaction (e.g. AddExpense)
+Data (Implementation)
 
-Bloc → Handles event, calls use case
+Models (DTOs)
 
-Use Case → Runs business logic
+Data Sources (Local / Remote)
 
-Repository → Fetches/stores data
+Repository Implementations
 
-State → UI rebuilds reactively
+ Layers Detailed
+Layer	Components
+Data Layer	Models (DTOs), Data Sources (API, SQLite, SharedPrefs), Repository implementations
+Domain Layer	Entities, Repository contracts, Use Cases (business logic)
+Presentation Layer	Pages, Widgets, and BLoC (managing events & states)
+⚙️ State Management (BLoC)
+The app uses the BLoC pattern for predictable & testable UI workflows:
 
-API & Data Handling
+Event: User interaction (e.g., AddExpense)
 
-Remote Data Source → HTTP requests via dio
+Bloc: Handles event, calls use case
 
-Error Handling → Functional style (Either) for success/failure
+Use Case: Contains business logic
 
-Repository → Bridges domain & data layers
+Repository: Fetches or stores data
 
-Pagination → Local lazy-loading with lazy_load_scrollview
+State: UI rebuilds reactively
 
-Development
+ API & Data Handling
+Remote Data Source uses HTTP requests via dio
 
+Functional-style error handling with Either for success/failure
+
+Repository bridges domain and data layers
+
+Local lazy-loading pagination through lazy_load_scrollview package
+
+ Development Environment
 Flutter SDK: 3.32.4
 
 Responsive UI: flutter_screenutil
@@ -77,29 +76,26 @@ Dependency Injection: get_it
 
 Database: sqflite
 
-How to Run
-
-Clone the repo:
-
+ How to Run
+bash
+# Clone the repo
 git clone https://github.com/zeyadtarek1999/Expense-Tracker.git
 
+# Navigate into the project directory
+cd Expense-Tracker
 
-Install dependencies:
-
+# Install dependencies
 flutter pub get
 
+# Generate localization keys
+flutter pub run easy_localization:generate -S assets/languages -f keys -o locale_keys.g.dart
 
-Run the app:
+# Generate assets and fonts (if applicable)
+flutter pub run build_runner build --delete-conflicting-outputs
 
+# Run the app
 flutter run
+Make sure to configure your API keys or environment variables as required.
 
-
-
-
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.41.22.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.41.22.png)
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.41.58.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.41.58.png)
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.42.04.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.42.04.png)
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.42.16.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.42.16.png)
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.42.22.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.42.22.png)
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.42.30.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.42.30.png)
-![Simulator Screenshot - iPhone 15 Pro - 2025-08-22 at 22.42.48.png](../../Documents/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202025-08-22%20at%2022.42.48.png)
+ Screenshots
+<img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_22.png" alt="Screenshot 1" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_58.png" alt="Screenshot 2" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_04.png" alt="Screenshot 3" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_16.png" alt="Screenshot 4" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_22.png" alt="Screenshot 5" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_30.png" alt="Screenshot 6" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_48.png" alt="Screenshot 7" width="300" />
