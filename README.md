@@ -66,7 +66,7 @@ Predictable & testable UI workflows:
 
 ---
 
-## ⚙Development Environment
+## Development Environment
 
 - **Flutter SDK:** 3.32.4
 - **Responsive UI:** `flutter_screenutil`
@@ -75,9 +75,7 @@ Predictable & testable UI workflows:
 - **Database:** `sqflite`
 
 ---
-  Screenshots
-<img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_22.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_41_58.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_04.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_16.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_22.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_30.png" width="300" /> <img src="https://user-images.githubusercontent.com/yourusername/screenshots/Simulator_Screenshot_iPhone_15_Pro_2025_08_22_22_42_48.png" width="300" /> ``
-
+ 
 ##  ️ How to Run
 
 ```bash
